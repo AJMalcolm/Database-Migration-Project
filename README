@@ -36,6 +36,8 @@ Next the sequential approach to exporting the data to the local SQL server was d
 
 In order to provide a definitive overview of the efficiency of multiple cores working on a task, the process would need to be run many times and average results taken. Also a wider range of core values (2, 4, 8, 16, 32, 64 cores) would be ideal to see if there is a performance-peak regarding their efficiency. And finally a possibly bottleneck in this process was the speed of the PC being used to test the functionality, making a comparison between multiple PCs (with different numbers of CPU cores) would shed yet more light on the efficiency of multi-threading.
 
+On a personal-development note I would like to experiment with different testing methods and look to improve my approach to both unit and performance testing.
+
 ## Author
 
 Alasdair Malcolm
