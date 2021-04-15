@@ -27,7 +27,7 @@ Java 11 project to import data from a csv file, check the data for duplicate ent
 - Enums
 - Predefined Exceptions
 
-## Approach
+##Approach
 
 Project was completed in several steps. Firstly the FileReader/BufferedReader was tested and implamented, importing the csv file data to an ArrayList. Once this was functional I decided to switch the collection method to a HashMap, allowing for more streamlined additional functionality in the future (faster searching etc.) if it were needed.
 Next the sequential approach to exporting the data to the local SQL server was developed as this was the simpler version of the software and I expected fewer issues during development. When this was complete I added the multi-threaded approach, splitting the simultaneous workload into 4 sections and passing each thread 1/4 of the data. Finally some testing and observation was performed when running the program multiple times.
