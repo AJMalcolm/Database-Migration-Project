@@ -2,7 +2,6 @@
 
 Project completed while training at Sparta Global.
 
-
 ## About
 
 Java 11 project to import data from a csv file, check the data for duplicate entries and then export the non-duplicated data to an SQL database. Maven used for dependency handling and JUnit4 for testing of functionality. Some basic logging performed as required using Log4j. My SQL Workbench also used to observe and test functionality.
